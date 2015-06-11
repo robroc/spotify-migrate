@@ -20,14 +20,16 @@ There should be one CSV per playlist. The CSVs should be in the same folder as t
 
 You'll need [spotipy](http://spotipy.readthedocs.org/en/latest/) and requests installed for it to work. Installing spotipy will install requests:
 
-    pip install spotipy
+    $ pip install spotipy
 
 
 You'll also need to register an app with the [Spotify API](https://developer.spotify.com/web-api/) and generate a client ID and client secret, as well as provide a redirect URI. Add these to lines 7-10, along with your user name.
 
 The first time you run the script, you'll be asked to authorize this script with your Spotify account. Follow the directions and paste in the URL of the site you were redirected to.
 
-When you're ready, just run the file from the command line, ensuring you're in the same folder as the script.
+When you're ready, just run the file from the command line, ensuring you're in the same folder as the script:
+
+    $ python spotify_migrate.py
 
 
 How it works
