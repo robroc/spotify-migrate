@@ -23,7 +23,7 @@ You'll need [spotipy](http://spotipy.readthedocs.org/en/latest/) and requests in
     $ pip install spotipy
 
 
-You'll also need to register an app with the [Spotify API](https://developer.spotify.com/web-api/) and generate a client ID and client secret, as well as provide a redirect URI. Add these to lines 7-10, along with your user name.
+You'll also need to register an app with the [Spotify API](https://developer.spotify.com/web-api/) and generate a client ID and client secret, as well as provide a redirect URI. Add these to lines 6-9, along with your user name.
 
 The first time you run the script, you'll be asked to authorize this script with your Spotify account. Follow the directions and paste in the URL of the site you were redirected to.
 
