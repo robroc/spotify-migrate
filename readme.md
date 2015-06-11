@@ -3,7 +3,7 @@ Grooveshark to Spotify
 
 This is a Python script that takes your Grooveshark playlists (if you were quick enough to save them while you could), or any playlist, really, and turns them into Spotify playlists.
 
-The playlists must be in CSV format, with a .csv extension, and look like this:
+The playlists must be in CSV format, with a `.csv` extension, and look like this:
 
     SongName,Artist,Album
     "Dancing Queen","Abba","Greatest Hits"
@@ -16,9 +16,9 @@ The name of the CSV file should be the name of the Spotify playlist you wish to 
 `Oldies.csv`
 
 
-There should be one CSV per playlist. The CSVs should be in teh same folder as the `spotify_migrate.py` file.
+There should be one CSV per playlist. The CSVs should be in the same folder as the `spotify_migrate.py` file.
 
-You'll need [spotipy](http://spotipy.readthedocs.org/en/latest/) and requests installed for it to work. Installing spotipy will install reqeusts:
+You'll need [spotipy](http://spotipy.readthedocs.org/en/latest/) and requests installed for it to work. Installing spotipy will install requests:
 
     pip install spotipy
 
@@ -27,7 +27,7 @@ You'll also need to register an app with the [Spotify API](https://developer.spo
 
 The first time you run the script, you'll be asked to authorize this script with your Spotify account. Follow the directions and paste in the URL of the site you were redirected to.
 
-When you're ready, just run the file from the command line, ensuring you're in teh same folder as the script.
+When you're ready, just run the file from the command line, ensuring you're in the same folder as the script.
 
 
 How it works
